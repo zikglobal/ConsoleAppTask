@@ -70,7 +70,7 @@ namespace ConsoleApp
             }
         }
 
-        private int GetNextProductId()
+        public int GetNextProductId()
         {
             return databaseManager.Products.Count + 1;
         }
